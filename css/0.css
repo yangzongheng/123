@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#tt>ul>li>a{
+	text-decoration: none;
+	color: black;
+}
+.timu{
+	font-weight:1000;
+	font-size: 40px;
+	padding:0 120px 0 300px;
+}
+#tt>ul>li{
+	float: left;
+	line-height:100px ;
+	margin: -20px 0px -20px 0px;
+}
+#tt>ul{
+	list-style: none;
+	text-decoration: none;
+}
+.tixia,.tixia1{
+	padding: 0 10px;
+}
+.img-slide img1{
+	display: block;
+}
+.img-slide img2{
+	display: none;
+}
+.img-slide img3{
+	display: none;
+}
+.img-slide img4{
+	display: none;
+}
+.wdnmd>li{
+	float: left;
+	padding: 0 50px;
+}
+.wdnmd>li:first-child{
+	padding-left: 520px;
+}
+.wdnmd{
+	width: 1950px;
+	position: absolute;
+	top: 60px;
+	background-color: rgba(232, 232, 232, 0.6);
+}
+#circle{
+ height: 20px;
+ display: flex;
+ position: absolute;
+ top: 800px;
+ right: 850px;
+}
+.circle{
+ width: 50px;
+ height: 5px;
+ border-radius: 5px;
+ border: 2px solid white;
+ background: rgba(0,0,0,0.4);
+ margin: 5px;
+}
+#tt>ul>li>a:hover{
+	border-bottom: 2px solid #19cc34 ;
+	color: #65ffff;
+}
+.qoq{
+	width: 1300px;
+	margin:0px auto;
+}
+.q0{
+	float: left;
+}
+.q1{
+	float: left;
+	margin: 3px;
+	width: 150px;
+	height: 80px;
+	background-color:rgb(198,241,218);
+}
+.q2{
+	float: left;
+	margin: 3px;
+	width: 150px;
+	height: 80px;
+	background-color:rgb(208,211,251);
+}
+.q3{
+	float: left;
+	margin: 3px;
+	width: 150px;
+	height: 80px;
+	background-color:rgb(198,235,241);
+}
+.q4{
+	float: left;
+	margin: 3px;
+	width: 150px;
+	height: 80px;
+	background-color:rgb(241,216,198);
+}
+.wenzi0{
+	position: absolute;
+	left: 510px;
+	top: 850px;
+}
+.wenzi1{
+	position: absolute;
+	left: 810px;
+	top: 850px;
+}
+.wenzi2{
+	position: absolute;
+	left: 1150px;
+	top: 850px;
+}
+.wz{
+	font-size: 20px;
+	font-weight: 1px;
+	border-bottom: 1px solid #000;
+}
+.wz0{
+	position: absolute;
+	left:650px;
+	top: 1015px;
+	font-size: 10px;
+}
+.wz1{
+	position: absolute;
+	left:1070px;
+	top: 1015px;
+	font-size: 10px;
+}
+.foot{
+	width: 1300px;
+	margin: 1px auto;
+}
+.foot0{
+	margin-right: 20px;
+	float: left;
+	width: 400px;
+	border-bottom: 1px solid #ccc;
+}
+.foot1{
+	float: left;
+	margin-right: 20px;
+	width: 400px;
+	height: 600px;
+	border: 1px solid #ccc;
+}
+.zh{
+	border: 1px solid #ccc;
+	width: auto;
+	height: 300px;
+	background-color: #CCCCCC;
+}

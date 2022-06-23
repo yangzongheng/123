@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/0.css"/>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	</head>
+	<body>
+		<div id="tt">
+				<ul>
+					<li class="timu"><a href="#">Hasee神舟</a></li>
+					<li class="tixia1"><a href="#">笔记本电脑</a></li>
+						<ul class="wdnmd">
+							<li><a href="#"><img src="img/001.png"></a></li>
+							<li><a href="#"><img src="img/002.png"></a></li>
+							<li><a href="#"><img src="img/003.png"></a></li>
+							<li><a href="#"><img src="img/004.png"></a></li>
+						</ul>
+					<li class="tixia"><a href="#">台式电脑</a></li>
+					<li class="tixia"><a href="#">商用电脑</a></li>
+					<li class="tixia"><a href="#">准系统及配件</a></li>
+					<li class="tixia"><a href="#">服务与支持</a></li>
+					<li class="tixia"><a href="#">网上商城</a></li>
+					<li class="tixia"><a href="#">社区</a></li>
+					<li class="tixia"><input type="text" placeholder="搜索"><a><img src="img/放大镜.jpg" width="20px"></a></li>
+					<li class="tixia"><a href="#">中文|English</a></li>
+				</ul>
+		</div>
+		<div class="lunbo">
+			<div class="content">
+				<img src="img/01.jpg" class="img-slide img1" alt="1" class="item"/>
+				<img src="img/02.jpg" class="img-slide img2" alt="2" class="item"/>
+				<img src="img/03.jpg" class="img-slide img3" alt="3" class="item"/>
+				<img src="img/04.jpg" class="img-slide img4" alt="4" class="item"/>
+				<ul id="circle">
+								<li class="circle"></li>
+								<li class="circle"></li>
+								<li class="circle"></li>
+								<li class="circle"></li>
+				</ul>
+			</div>
+		</div>
+		<br /><br />
+		<div class="qoq">
+			<div class="q0">
+				<img  src="img/401.png"/>
+				<img  src="img/402.jpg"/>
+				<img  src="img/403.jpg"/>
+			</div>
+				<div class="q1">
+					<img src="img/501.png"/>
+					<p align="right"style="width: 120px;">下载中心</p>
+				</div>
+				<div class="q2">
+					<img src="img/502.png"/>
+					<p align="right"style="width: 120px;">服务网点</p>
+				</div>
+				<div class="q3">
+					<img src="img/503.png"/>
+					<p align="right"style="width: 120px;">销售网络</p>
+				</div>
+				<div class="q4">
+					<img src="img/504.png"/>
+					<p align="right"style="width: 120px;">售后服务</p>
+				</div>
+			
+		</div>
+		<div class="wenzi0">
+			<h3>战神</h3>
+			<p>为游戏而生</p>
+		</div>
+		<div class="wenzi1">
+			<h3>精盾&优雅</h3>
+			<p>成功标准</p>
+		</div>
+		<div class="wenzi2">
+			<h3>台式机</h3>
+			<p>性能强</p>
+		</div>
+		<div class="foot">
+			<div class="foot0">
+				<p><span class="wz">最新视频</span><span class="wz0">更多>></span></p>
+			</div>
+			<div class="foot0">
+				<p><span class="wz">媒体报告</span><span class="wz1">更多>></span></p>
+			</div>
+			<div class="foot0">
+				<span class="wz">官微动态</span>
+			</div>
+			<div class="foot1">
+				
+			</div>
+			<div class="foot1">
+				
+			</div>
+			<div class="foot1">
+				
+			</div>
+		</div>
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br><br><br><br><br /><br />
+		<div class="zh">
+			
+		</div>
+		<script type="text/javascript">
+		  var index=0;
+		  function ChangImg(){
+		   index++;
+		   var a=document.getElementsByClassName("img-slide");
+		   if(index>=a.length) index=0;
+		   for(var i=0;i<a.length;i++){
+		    a[i].style.display='none';
+		   }
+		   a[index].style.display='block';
+		  }
+		  setInterval(ChangImg,3000);
+		  var box=document.getElementsByClassName('tixia1')[0];
+		  var twobox=document.getElementsByClassName('wdnmd')[0];
+		  box.onmouseover=function(){
+			twobox.style.display='block';
+		  }
+		  box.onmouseout=function(){
+		  	twobox.style.display='none';
+		  }
+		 </script>
+	</body>
+</html>
